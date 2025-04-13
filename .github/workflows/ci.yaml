@@ -84,7 +84,7 @@ jobs:
             aws deploy create-deployment \
             --application-name TasunRecommendorSystem \
             --deployment-config-name CodeDeployDefault.AllAtOnce \
-            --deployment-group-name Tasun-recommendor-grp \
+            --deployment-group-name Tasun-recommendor-group \
             --s3-location bucket=tasunbucket-for-codedeploy,key=deployment.zip,bundleType=zip \
             --file-exists-behavior OVERWRITE \
             --region ap-south-1

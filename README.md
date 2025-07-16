@@ -1,69 +1,104 @@
 Hybrid_Recommendor_System
 ==============================
+# 🎵 Hybrid_Recommendor_System  
+*Transforming Data into Personalized Music Discoveries*
 
-This recommendor system is a combination of Collabarative and content based filtering approach.
+---
 
-HYBRID_RECOMMENDOR_SYSTEM
-Transforming Data into Personalized Music Discoveries
-llaasstt ccoommmmiitt april ppyytthhoonn 67.1% llaanngguuaaggeess 7
-Built with the tools and technologies:
-JSON MMaarrkkddoowwnn SSpphhiinnxx SSttrreeaammlliitt sscciikkiittlleeaarrnn JJaavvaaSSccrriipptt GGNNUU BBaasshh
-NumPy DDoocckkeerr PPyytthhoonn GGiittHHuubb AAccttiioonnss bat ppaannddaass YAML
-Table of Contents
-Overview
-Getting Started
-Prerequisites
-Installation
-Usage
-Testing
-Overview
-Hybrid_Recommendor_System is an advanced recommendation engine that combines contentbased and collaborative filtering techniques to deliver highly personalized music suggestions.
-GitDocify
-Designed for scalability and flexibility, it integrates data processing, feature engineering, and
-similarity computations into a seamless pipeline.
-Why Hybrid_Recommendor_System?
-This project empowers developers to build tailored music experiences with features such as:
-🧩 Modular Architecture: Easily customize and extend components like filtering techniques
-and data pipelines.
-🚀 End-to-End Workflow: From data cleaning to model training and deployment, all stages
-are streamlined.
-🎯 Personalized Recommendations: Leverages hybrid filtering for more accurate and diverse
-suggestions.
-🛠 Deployment Ready: Supports containerization with Docker and automated deployment
-scripts.
-🌐 Interactive Web Interface: Enables user-friendly access to recommendations with audio
-previews.
-Getting Started
-Prerequisites
-This project requires the following dependencies:
-Programming Language: Python
-Package Manager: Pip, Tox
-Container Runtime: Docker
-Installation
-Build Hybrid_Recommendor_System from the source and install dependencies:
-1. Clone the repository:
-❯ git clone https://github.com/utsav-04/Hybrid_Recommendor_System
-2. Navigate to the project directory:
-❯ cd Hybrid_Recommendor_System
-3. Install the dependencies:
-Using docker:
-GitDocify
-❯ docker build -t utsav-04/Hybrid_Recommendor_System .
-Using pip:
-❯ pip install -r requirements-dev.txt, requirements.txt
-Usage
-Run the project with:
-Using docker:
-docker run -it {image_name}
-Using pip:
-python {entrypoint}
-Testing
-Hybrid_recommendor_system uses the {test_framework} test framework. Run the test suite with:
-Using docker:
+## 📊 Language Statistics
+- **Python**: 67.1%
+- **Languages Used**: Python, JavaScript, JSON, YAML, Markdown, Bash
+
+---
+
+## ⚙️ Built With
+- **Programming & ML Libraries**:  
+  `Python`, `NumPy`, `Pandas`, `Scikit-learn`  
+- **Web Framework**:  
+  `Streamlit`  
+- **Containerization & DevOps**:  
+  `Docker`, `GitHub Actions`  
+- **Documentation Tools**:  
+  `Markdown`, `Sphinx`, `GitDocify`  
+- **Shell Tools**:  
+  `GNU Bash`  
+- **Data & Config**:  
+  `JSON`, `YAML`  
+- **Others**:  
+  `JavaScript`, `bat`
+
+---
+
+## 📚 Table of Contents
+- [Overview](#overview)
+- [Why Hybrid_Recommendor_System?](#why-hybrid_recommendor_system)
+- [Getting Started](#getting-started)
+  - [Prerequisites](#prerequisites)
+  - [Installation](#installation)
+- [Usage](#usage)
+- [Testing](#testing)
+
+---
+
+## 📖 Overview
+**Hybrid_Recommendor_System** is an advanced recommendation engine that combines **content-based** and **collaborative filtering** techniques to deliver highly personalized music suggestions.  
+It’s designed for **scalability**, **modularity**, and **end-to-end automation**, making it suitable for both experimentation and production use.
+
+---
+
+## 💡 Why Hybrid_Recommendor_System?
+
+- 🧩 **Modular Architecture**: Easily customize and extend filtering techniques and data pipelines.  
+- 🚀 **End-to-End Workflow**: From data ingestion to model training and deployment.  
+- 🎯 **Personalized Recommendations**: Combines multiple filtering techniques for richer suggestions.  
+- 🛠 **Deployment Ready**: Supports Docker for consistent containerized environments.  
+- 🌐 **Interactive Web Interface**: Accessible, user-friendly frontend with audio previews.
+
+---
+
+## 🚀 Getting Started
+
+### 🔧 Prerequisites
+
+Make sure you have the following installed:
+
+- **Python**  
+- **Pip & Tox**  
+- **Docker** (for containerization)
+
+---
+
+### 📦 Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/utsav-04/Hybrid_Recommendor_System
+cd Hybrid_Recommendor_System
+
+🐳 Using Docker:
+docker build -t utsav-04/hybrid_recommendor_system .
+
+📜 Using pip:
+pip install -r requirements.txt
+pip install -r requirements-dev.txt
+
+▶️ Usage
+🐳 Using Docker:
+docker run -it utsav-04/hybrid_recommendor_system
+
+🐍 Using Python:
+python {entrypoint}  # Replace `{entrypoint}` with your main file name
+
+✅ Testing
+This project uses {test_framework} as the testing framework.
+
+🐳 Using Docker:
 echo 'INSERT-TEST-COMMAND-HERE'
-Using pip:
+
+🐍 Using Python:
 pytest
-⬆ Return
+
+
 
 Project Organization
 ------------
